@@ -1,0 +1,87 @@
+.help-modal-header .help-modal-close {
+  background: center center no-repeat transparent;
+  background-size: 20px;
+}
+
+.help-modal-menu a.active {
+  background: #f2faf8 right 20px center no-repeat;
+  background-position: right 20px center;
+  background-size: 7px;
+}
+
+.account-section-title.checkmark h1 {
+  padding: 0px 0px 5px 28px !important;
+}
+
+.lt-ie9 .help-modal-menu a.active {
+  background: #f2faf8 right 20px center no-repeat !important;
+  background-size: 7px !important;
+}
+
+.input-wrapper .tooltip {
+  margin-left: 1px;
+}
+
+.citizens-header-footer-overlay {
+  opacity: 1;
+  background-color: #fff;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  left: 0px;
+  z-index: 1000;
+}
+
+.citizens-header-footer-overlay .centered-content {
+  width: 100%;
+  max-width: 1060px;
+  padding: 0 20px;
+  margin: 0 auto;
+  font-family: arial, helvetica, san-serif;
+  font-size: 14px;
+}
+
+.citizens-header-footer-overlay .responsive-enabled .centered-content {
+  width: auto;
+  max-width: 1060px;
+}
+
+.citizens-header-footer-overlay .page-logo {
+  float: none;
+}
+
+.citizens-header-footer-overlay .page-logo img {
+  margin: 10px;
+  float: none;
+}
+
+.citizens-header-footer-overlay .topshadow {
+  position: absolute;
+  width: 100%;
+  top: 100px;
+  z-index: 5;
+  height: 8px;
+  background: -webkit-radial-gradient(
+    50% 100%,
+    farthest-side,
+    rgba(0, 0, 0, 0.1),
+    transparent 100%
+  );
+  background: radial-gradient(farthest-side at 50% 100%, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0) 100%);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.account-section-title.checkmark h1 {
+  padding: 0px 0px 5px 28px !important;
+}
+
+.mobile-alert-dot {
+  min-width: 22px;
+  min-height: 22px;
+  width: auto;
+  height: auto;
+  max-width: 50px;
+  max-height: 50px;
+  padding: 5px;
+}
